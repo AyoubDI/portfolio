@@ -1,5 +1,4 @@
 header {
-  /* display: flex;justify-content: space-between;align-items: flex-start; */
 }
 
 .button1 {
@@ -35,9 +34,86 @@ nav a {
   font-size: 20px;
 }
 
+.learner {
+  webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
 
 
 .learner {
-  webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+
+  padding: 120px;
+}
+
+.drunk {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.task {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.task {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+  width: 44%;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.card p {
+  margin: 10px 0 0;
+  color: #333;
+}
+.elementparent {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 4%;
+  column-gap: 4%;
+  align-content: space-evenly;
+  gap: 4%;
 }
